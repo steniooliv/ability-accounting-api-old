@@ -3,6 +3,6 @@ class Company < ApplicationRecord
 
   validates :name, presence: true
 
-  has_one :accounting
-  has_many :invoice
+  has_one :accountings
+  has_many :invoices
 end

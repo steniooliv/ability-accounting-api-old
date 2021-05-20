@@ -2,6 +2,6 @@ class Accounting < ApplicationRecord
 
   validates :name, presence: true
 
-  has_many :user
-  has_many :company
+  has_many :users
+  has_many :companies
 end

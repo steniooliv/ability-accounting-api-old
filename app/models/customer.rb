@@ -2,5 +2,5 @@ class Customer < ApplicationRecord
 
   validates :name, presence: true
   
-  has_many :invoice   
+  has_many :invoices
 end

@@ -3,5 +3,5 @@ class User < ApplicationRecord
 
   validates :name, :email, :password, presence: true
 
-  has_one :accounting
+  has_one :accountings
 end

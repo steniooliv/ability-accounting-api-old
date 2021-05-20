@@ -4,6 +4,6 @@ class Invoice < ApplicationRecord
 
   validates :number, :serie, :total_value, presence: true
 
-  has_one :customer
-  has_one :company
+  has_one :customers
+  has_one :companies
 end
